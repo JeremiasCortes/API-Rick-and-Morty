@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1, #filters{
+    text-align: center;
+}
+
+#filters input, #filters #status-filters{
+    padding: 8px 16px;
+    margin: 10px;
+    border: 0;
+    font-size: 18px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character-card{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e8e8e8;
+    border-radius: 8px;
+}
+
+.character-card img{
+    width: 100%;
+}
